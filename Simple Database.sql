@@ -4,7 +4,7 @@ USE Market;
 
 CREATE TABLE Vegetables
 (
-	Sno int primary KEY,
+    Sno int primary KEY,
     Item varchar(50),
     Price smallint
 );
