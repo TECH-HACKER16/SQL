@@ -1,7 +1,7 @@
 CREATE DATABASE IF NOT EXISTS Company;
 
 USE Company;
--- drop table Employee_Details;
+
 CREATE TABLE Employee_Details
 (
 	Sno INT UNIQUE,
