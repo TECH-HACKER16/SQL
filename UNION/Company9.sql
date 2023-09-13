@@ -1,0 +1,27 @@
+CREATE DATABASE IF NOT EXISTS JOINS;
+
+USE JOINS;
+
+
+CREATE TABLE COMPANY9
+(
+	Sno INT PRIMARY KEY,
+    Candidate_Name VARCHAR(30)
+);
+INSERT INTO COMPANY9
+VALUES 
+	(1,"Karthik"),
+    (2,"Venkat"),
+    (3,"Samuel"),
+    (4,"Rahul");
+
+SELECT * FROM COMPANY9
+UNION 
+SELECT * FROM COMPANY10;
+
+-- Use UNION ALL command to display all data including duplicate values
+SELECT * FROM COMPANY9
+UNION ALL 
+SELECT * FROM COMPANY10;
+
+

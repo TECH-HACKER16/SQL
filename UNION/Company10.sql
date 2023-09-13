@@ -1,0 +1,18 @@
+CREATE DATABASE IF NOT EXISTS JOINS;
+
+USE JOINS;
+
+
+CREATE TABLE COMPANY10
+(
+	Sno INT PRIMARY KEY,
+    Candidate_Name VARCHAR(30)
+);
+INSERT INTO COMPANY10
+VALUES 
+	(1,"Sanjay"),
+    (2,"Venkat"),
+    (3,"Satish"),
+    (4,"Rahul");
+    
+SELECT * FROM COMPANY10;
